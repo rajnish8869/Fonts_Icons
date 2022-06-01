@@ -1,5 +1,6 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         padding:20,
         backgroundColor: 'lightgreen',
       }}>
+        <Icon name='rocket' size={100} color="red"/>
       <Text
         style={{fontWeight: 'bold', fontSize: 30, backgroundColor: 'yellow'}}>
         NORMAL
